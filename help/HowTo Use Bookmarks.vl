@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0237-g0353095d36" Version="0.128">
+  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0237-g0353095d36" />
   <Patch Id="IJ0ICv7DUXxN7xHPDLeO8O">
     <Canvas Id="RXlQmIPXpQMMNHbOIsMq1A" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="A99bvCfCiDrOK06fg99eRF" Name="MyProject" Position="183,198">
@@ -376,11 +376,6 @@
             <Patch Id="GBzLVtcjkQLQPoBJNV6d7p" Name="Update">
               <Pin Id="TxYwtslUXaqOUTreZ0Xtv8" Name="Output" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="T8RbZqcGvrSPIqtSagdHeT">
               <Fragment Id="QWMVdH1a991O0RNStkiCgU" Patch="Lt17pWglp9FOPGhzc9TeW8" Enabled="true" />
               <Fragment Id="OaBSbFRAgOzLOYbB3PD1QS" Patch="GBzLVtcjkQLQPoBJNV6d7p" Enabled="true" />
@@ -481,7 +476,6 @@
             <Pin Id="P0IPE65W6uZMXL316jTJzz" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="PgBPCkgjB9PNaCbawXc5Fu" Name="Name" Kind="InputPin" />
             <Pin Id="QTfaur3ijuVPg82vvbpHAk" Name="Description" Kind="InputPin" />
-            <Pin Id="B6jgHurgFCNPIwlpxuRAe7" Name="Description" Kind="OutputPin" />
           </Node>
           <Pad Id="OWt1z813Y8CPJhaop4Nn5P" Comment="Name" Bounds="361,269,87,15" ShowValueBox="true" isIOBox="true" Value="My cool patch">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -579,5 +573,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="SWgzCqsLFdNMcg0eOThbJ5" Location="VL.Bookmarks" Version="0.0.0" />
-  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0237-g0353095d36" />
 </Document>
