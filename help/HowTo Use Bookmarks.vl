@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0237-g0353095d36" Version="0.128">
-  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0237-g0353095d36" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0250-g38c20adae3" Version="0.128">
+  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0250-g38c20adae3" />
   <Patch Id="IJ0ICv7DUXxN7xHPDLeO8O">
     <Canvas Id="RXlQmIPXpQMMNHbOIsMq1A" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="A99bvCfCiDrOK06fg99eRF" Name="MyProject" Position="183,198">
@@ -560,6 +560,21 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="828,300,45,19" Id="HDhNDUSu31hOtDAtcPgqrJ">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="FKoNfJ2ClV0P6P8pZyzbKU" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="C7t99FuR7HxMeEufFpFJuL" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Fvg6uyMiShVOO0oCKWFGDD" Name="New Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GI30B62yE3PP57CWz75f6x" Name="Period" Kind="InputPin" />
+            <Pin Id="OhkXBBBw4E7LJk8RNNmQwP" Name="Pause" Kind="InputPin" />
+            <Pin Id="MMSnkJ2AqtAN0XjoxHtAPB" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="IIsTQ6RCqFjOTHEe5sWLq5" Name="Phase" Kind="OutputPin" />
+            <Pin Id="J5aDWiYo43aQTLLTlt0v65" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="TjZHKPxVBHFO7vMzwOdfQp" Name="Cycles" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="JJOgjnDDdL2LsxhICDE57n" Name="Create" />
         <Patch Id="S8vLZINzhX3P00tMhwD4FP" Name="Update" />
@@ -573,5 +588,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="SWgzCqsLFdNMcg0eOThbJ5" Location="VL.Bookmarks" Version="0.0.0" />
-  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0237-g0353095d36" />
+  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0250-g38c20adae3" />
 </Document>
