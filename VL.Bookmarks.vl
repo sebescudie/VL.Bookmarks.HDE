@@ -244,6 +244,8 @@
               <ControlPoint Id="BjjivKBehlpQciNN0HthvK" Bounds="329,289" />
               <ControlPoint Id="EFBZqnooZzqLoBNSF4jbWB" Bounds="295,202" />
               <ControlPoint Id="O5cnP5aPGUVOKkUVKrTbXu" Bounds="408,202" />
+              <ControlPoint Id="ThjOpiO34BINgzD67WK28n" Bounds="372,328" />
+              <ControlPoint Id="Nq21MyBsLhqLot7STHSgkR" Bounds="472,328" />
             </Canvas>
             <Patch Id="VHDN3sndModNPbjB6sc9li" Name="Create" ParticipatingElements="RdfQybYcncoOrBSK9jJiov,BTS4Fpp0MQuNCLkXfLz0wn">
               <Pin Id="HQVi49bI7OnQUGuBYArn4N" Name="Name" Kind="InputPin" />
@@ -272,7 +274,10 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Slot>
-            <Patch Id="JBMvMvCpjqVQW8qe9DehLd" Name="Split" />
+            <Patch Id="JBMvMvCpjqVQW8qe9DehLd" Name="Split">
+              <Pin Id="CuFvsa1yyWvLtxYcqopvxT" Name="Name" Kind="OutputPin" />
+              <Pin Id="QWexw5AjJcWMgpLYS2g2Kj" Name="Description" Kind="OutputPin" />
+            </Patch>
             <Patch Id="FmSkPnOuU8eP4kaNRmFzGM" Name="SetDescription">
               <Pin Id="IFyBWGLevrcM33kQVGorDc" Name="Description" Kind="InputPin" />
             </Patch>
@@ -297,6 +302,10 @@
             <Link Id="BiMAr8zN6icPfPpWwV2rNL" Ids="HQVi49bI7OnQUGuBYArn4N,EFBZqnooZzqLoBNSF4jbWB" IsHidden="true" />
             <Link Id="BTS4Fpp0MQuNCLkXfLz0wn" Ids="O5cnP5aPGUVOKkUVKrTbXu,Gx0ijN4C2kmQABybYMOwCZ" />
             <Link Id="TqSouUDguiePlYzrMrcWkp" Ids="Htjy7mGJG2JPw32nnA0X4t,O5cnP5aPGUVOKkUVKrTbXu" IsHidden="true" />
+            <Link Id="NRbDrMRICoFM5rf3SFqIbL" Ids="VmHwqf66U78LiKfV62XPNd,ThjOpiO34BINgzD67WK28n" />
+            <Link Id="C87Wn5Kgg34PzrTVH1xr7U" Ids="ThjOpiO34BINgzD67WK28n,CuFvsa1yyWvLtxYcqopvxT" IsHidden="true" />
+            <Link Id="HBlciGZnS1OM8xZkES7vrn" Ids="Gx0ijN4C2kmQABybYMOwCZ,Nq21MyBsLhqLot7STHSgkR" />
+            <Link Id="Tk50B0shNXRLCLUYwWurvO" Ids="Nq21MyBsLhqLot7STHSgkR,QWexw5AjJcWMgpLYS2g2Kj" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
