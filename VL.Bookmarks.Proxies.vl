@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="RCOiV2Ru0JrNucDssCsGHL" LanguageVersion="2024.6.7-0250-g38c20adae3" Version="0.128">
+  <NugetDependency Id="VRbsQUNogoANgyhvxe1vEk" Location="VL.CoreLib" Version="2024.6.7-0250-g38c20adae3" />
+  <Patch Id="QLJHvav7uB3P2RMlT7ylD2">
+    <Canvas Id="TaNcmlrEKG4Nach2kQDhFO" DefaultCategory="Bookmarks.Proxies" CanvasType="FullCategory">
+      <!--
+
+    ************************ XDocumentReader ************************
+
+-->
+      <Node Name="XDocumentReader" Bounds="659,479,79,125" Id="EX7KlWzjdJJLKqJl8duXkM">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="JkYwVmGsJGtNndPJcYm8Ei">
+          <Node Bounds="671,549,38,19" Id="PBERBxFiubqL9BOamNdP0n">
+            <p:NodeReference LastCategoryFullName="System.Xml.Linq.XDocument" LastDependency="System.Xml.XDocument.dll" OverloadStrategy="UserSelectedPins">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="XDocument" />
+              <Choice Kind="OperationCallFlag" Name="Load" />
+              <PinReference Kind="InputPin" Name="Uri" />
+            </p:NodeReference>
+            <Pin Id="V1Oo9KADj9TO0uM6BDd6lF" Name="Uri" Kind="InputPin" />
+            <Pin Id="STLzqQMtdnNOLDHBlMMdIO" Name="Result" Kind="OutputPin" />
+          </Node>
+          <ControlPoint Id="CcozDoGaDesP7g2lsC0Dpp" Bounds="673,587" />
+          <Link Id="LKqcxHuFdf0LpX3NvKgzjh" Ids="STLzqQMtdnNOLDHBlMMdIO,CcozDoGaDesP7g2lsC0Dpp" />
+          <Pin Id="MifajvsVKNJQVEWBkGZMEU" Name="Result" Kind="OutputPin" />
+          <Link Id="CFquu9tMtucLwtX8DvwYSz" Ids="CcozDoGaDesP7g2lsC0Dpp,MifajvsVKNJQVEWBkGZMEU" IsHidden="true" />
+          <ControlPoint Id="EAymGXSWyeqP13SzT5D88T" Bounds="673,497" />
+          <Pin Id="N6LsBde9cuXOq4Qk1J3Ql3" Name="Path" Kind="InputPin">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pin>
+          <Link Id="O0dj99LSkrQMwUgQOJAX6A" Ids="N6LsBde9cuXOq4Qk1J3Ql3,EAymGXSWyeqP13SzT5D88T" IsHidden="true" />
+          <Node Bounds="671,516,55,19" Id="S1WuTSDtlajOYyZZE5eAwq">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="MElzCsVeswQMNGA6dgnbhK" Name="Input" Kind="InputPin" />
+            <Pin Id="LKTReOYNYOkQXzH6VbM3l4" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Link Id="MV2nNBIdaG2O8fTl1OY32r" Ids="EAymGXSWyeqP13SzT5D88T,MElzCsVeswQMNGA6dgnbhK" />
+          <Link Id="NEZQVSNIm2GO88YbUPgcdR" Ids="LKTReOYNYOkQXzH6VbM3l4,V1Oo9KADj9TO0uM6BDd6lF" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ XDocumentWriter ************************
+
+-->
+      <Node Name="XDocumentWriter" Bounds="802,503,132,135" Id="GR6jBhuYnMFPPrJ6C2du2o">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="VkwBVebb7OZPseDHbMP8xm">
+          <Node Bounds="814,569,58,26" Id="Ske8Vk9o2VRO2LTOkqlW7g">
+            <p:NodeReference LastCategoryFullName="System.Xml.Linq.XDocument" LastDependency="System.Xml.XDocument.dll" OverloadStrategy="UserSelectedPins">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="XDocument" />
+              <Choice Kind="OperationCallFlag" Name="Save" />
+              <PinReference Kind="InputPin" Name="File Name" />
+            </p:NodeReference>
+            <Pin Id="GQUL3w5bGVoMhbAkMC7qYZ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="NkoQJTKylsZPz0Ss0wl1xT" Name="File Name" Kind="InputPin" />
+            <Pin Id="ANkA9UiXOYcLGyCU5wQmoO" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <ControlPoint Id="VlJFP3al3SzLX9iHv1Fq70" Bounds="816,522" />
+          <Link Id="Eyu32XOsxtBNcvOrr6QL1b" Ids="VlJFP3al3SzLX9iHv1Fq70,GQUL3w5bGVoMhbAkMC7qYZ" />
+          <Pin Id="Ahfr7nzO7NTPq4jGvixl6F" Name="Input" Kind="InputPin" />
+          <Link Id="Fo3Myq7kBB1QKaDAkW6Nmm" Ids="Ahfr7nzO7NTPq4jGvixl6F,VlJFP3al3SzLX9iHv1Fq70" IsHidden="true" />
+          <ControlPoint Id="AofyqCuH2OrQMSMh2KwCgb" Bounds="869,521" />
+          <Pin Id="D4SgHH4lxFPOC9jmIGhAST" Name="Path" Kind="InputPin">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pin>
+          <Node Bounds="867,540,55,19" Id="EKeeDadvvbiP164jYJ67GE">
+            <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToString" />
+            </p:NodeReference>
+            <Pin Id="HMovyD9ZstIMI0FmAfua4X" Name="Input" Kind="InputPin" />
+            <Pin Id="RSXFLLMX8SXQEKHlEFGVz2" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Link Id="JxVgIUsX0MJN7BruAyM4vC" Ids="D4SgHH4lxFPOC9jmIGhAST,AofyqCuH2OrQMSMh2KwCgb" IsHidden="true" />
+          <Link Id="CZHIAMY436mMxNthbeMXAN" Ids="AofyqCuH2OrQMSMh2KwCgb,HMovyD9ZstIMI0FmAfua4X" />
+          <Link Id="RD9wzTIERqVM6QzRJFDDsD" Ids="RSXFLLMX8SXQEKHlEFGVz2,NkoQJTKylsZPz0Ss0wl1xT" />
+          <ControlPoint Id="CNf3hgDg33xQPXAXh87arz" Bounds="816,621" />
+          <Link Id="VKYeAsdDm3rOpRK6KbsS5G" Ids="ANkA9UiXOYcLGyCU5wQmoO,CNf3hgDg33xQPXAXh87arz" />
+          <Pin Id="NiYM0ZISahVNMUHZSAERVX" Name="Output" Kind="OutputPin" />
+          <Link Id="SZI7rg6UeKpOOpQIgYGVtc" Ids="CNf3hgDg33xQPXAXh87arz,NiYM0ZISahVNMUHZSAERVX" IsHidden="true" />
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="JiY7KXb4NxoOysS0aeeRNl">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="J0fmQmL6GZEOqPfFNi4mWR">
+        <Canvas Id="SxLLgvkVhGTPcVI0r9jHhB" CanvasType="Group" />
+        <Patch Id="PxsiIKJYNazPHm4Ryaj6Rf" Name="Create" />
+        <Patch Id="BolnXEJDD95PQ6oPsANkVm" Name="Update" />
+        <!--
+
+    ************************  ************************
+
+-->
+        <ProcessDefinition Id="ONI2hsbY9TLQMsgiWFEZNN">
+          <Fragment Id="TXit73h5rk5N51XfWr52mu" Patch="PxsiIKJYNazPHm4Ryaj6Rf" Enabled="true" />
+          <Fragment Id="OizehNhOrJrNlYkh1zhpzE" Patch="BolnXEJDD95PQ6oPsANkVm" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <PlatformDependency Id="A4xvQ8TgV4uOeCaOSUGxVr" Location="System.Xml.XDocument" />
+</Document>
