@@ -13,3 +13,8 @@ _A bookmark system for the VVVV Gamma Hybrid Development Environment_
 nuget install VL.Bookmarks.HDE
 ```
 - Usage examples and more information are included in the pack and can be found via the [Help Browser](https://thegraybook.vvvv.org/reference/hde/findinghelp.html)
+
+## Credits
+
+- [Refik Anadol Studio](https://refikanadolstudio.com/) for partially sponsoring the development of this package
+- @gregsn for the debug session
