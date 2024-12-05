@@ -6,15 +6,15 @@
 
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.Bookmarks</id>
+    <id>VL.Bookmarks.HDE</id>
     <icon>icon.png</icon>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
     <version>1.0.0</version>
-    <title>VL.Bookmarks</title>
+    <title>VL.Bookmarks.HDE</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
     <authors>sebescudie</authors>
-    <projectUrl>https://github.com/sebescudie/VL.Bookmarks</projectUrl>
-    <repository type="git" url="https://github.com/sebescudie/VL.Bookmarks" />
+    <projectUrl>https://github.com/sebescudie/VL.Bookmarks.HDE</projectUrl>
+    <repository type="git" url="https://github.com/sebescudie/VL.Bookmarks.HDE" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description>Bookmarks for the vvvv gamma HDE</description>
