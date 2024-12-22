@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="RCOiV2Ru0JrNucDssCsGHL" LanguageVersion="2024.6.7-0250-g38c20adae3" Version="0.128">
-  <NugetDependency Id="VRbsQUNogoANgyhvxe1vEk" Location="VL.CoreLib" Version="2024.6.7-0250-g38c20adae3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="RCOiV2Ru0JrNucDssCsGHL" LanguageVersion="2024.6.7-0306-gf2f3e95f5e" Version="0.128">
+  <NugetDependency Id="VRbsQUNogoANgyhvxe1vEk" Location="VL.CoreLib" Version="2024.6.7-0306-gf2f3e95f5e" />
   <Patch Id="QLJHvav7uB3P2RMlT7ylD2">
     <Canvas Id="TaNcmlrEKG4Nach2kQDhFO" DefaultCategory="Bookmarks.Proxies" CanvasType="FullCategory">
       <!--
@@ -8,12 +8,12 @@
     ************************ XDocumentReader ************************
 
 -->
-      <Node Name="XDocumentReader" Bounds="659,479,79,125" Id="EX7KlWzjdJJLKqJl8duXkM">
+      <Node Name="XDocumentReader" Bounds="588,461,79,125" Id="EX7KlWzjdJJLKqJl8duXkM">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" />
         </p:NodeReference>
         <Patch Id="JkYwVmGsJGtNndPJcYm8Ei">
-          <Node Bounds="671,549,38,19" Id="PBERBxFiubqL9BOamNdP0n">
+          <Node Bounds="600,531,38,19" Id="PBERBxFiubqL9BOamNdP0n">
             <p:NodeReference LastCategoryFullName="System.Xml.Linq.XDocument" LastDependency="System.Xml.XDocument.dll" OverloadStrategy="UserSelectedPins">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="AssemblyCategory" Name="XDocument" />
@@ -23,18 +23,18 @@
             <Pin Id="V1Oo9KADj9TO0uM6BDd6lF" Name="Uri" Kind="InputPin" />
             <Pin Id="STLzqQMtdnNOLDHBlMMdIO" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="CcozDoGaDesP7g2lsC0Dpp" Bounds="673,587" />
+          <ControlPoint Id="CcozDoGaDesP7g2lsC0Dpp" Bounds="602,569" />
           <Link Id="LKqcxHuFdf0LpX3NvKgzjh" Ids="STLzqQMtdnNOLDHBlMMdIO,CcozDoGaDesP7g2lsC0Dpp" />
           <Pin Id="MifajvsVKNJQVEWBkGZMEU" Name="Result" Kind="OutputPin" />
           <Link Id="CFquu9tMtucLwtX8DvwYSz" Ids="CcozDoGaDesP7g2lsC0Dpp,MifajvsVKNJQVEWBkGZMEU" IsHidden="true" />
-          <ControlPoint Id="EAymGXSWyeqP13SzT5D88T" Bounds="673,497" />
+          <ControlPoint Id="EAymGXSWyeqP13SzT5D88T" Bounds="602,479" />
           <Pin Id="N6LsBde9cuXOq4Qk1J3Ql3" Name="Path" Kind="InputPin">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pin>
           <Link Id="O0dj99LSkrQMwUgQOJAX6A" Ids="N6LsBde9cuXOq4Qk1J3Ql3,EAymGXSWyeqP13SzT5D88T" IsHidden="true" />
-          <Node Bounds="671,516,55,19" Id="S1WuTSDtlajOYyZZE5eAwq">
+          <Node Bounds="600,498,55,19" Id="S1WuTSDtlajOYyZZE5eAwq">
             <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -94,6 +94,91 @@
           <Link Id="SZI7rg6UeKpOOpQIgYGVtc" Ids="CNf3hgDg33xQPXAXh87arz,NiYM0ZISahVNMUHZSAERVX" IsHidden="true" />
         </Patch>
       </Node>
+      <!--
+
+    ************************ MakeWindowTransparentFake ************************
+
+-->
+      <Node Name="MakeWindowTransparentFake" Bounds="738,263,166,175" Id="Izoe2Ezk7eILIdjqY3VxUR">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="AGF0gFFYEd9MTvFphW7PyH">
+          <Node Bounds="750,322,75,26" Id="Gy1fTWrBo76MXW6YeCSFp7">
+            <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="System.Windows.Forms.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetBackColor" />
+            </p:NodeReference>
+            <Pin Id="PLWn3UhPM8wMGKlKZBTzcv" Name="Input" Kind="StateInputPin" />
+            <Pin Id="LTYDsZucUnqLSyHzEs31oE" Name="Value" Kind="InputPin" />
+            <Pin Id="OF0OHW90LMEPFjX1gKgsHr" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="852,286,40,19" Id="NL2x4HvHEcePSiX5vTSHd0">
+            <p:NodeReference LastCategoryFullName="System.Drawing.Color" LastDependency="System.Drawing.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="Color" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Black" />
+            </p:NodeReference>
+            <Pin Id="HFCrAn3lh1DO0t9nUPmnYq" Name="Black" Kind="OutputPin" />
+          </Node>
+          <Link Id="FzRtYplOQPjL1qCWuyMzup" Ids="HFCrAn3lh1DO0t9nUPmnYq,LTYDsZucUnqLSyHzEs31oE" />
+          <ControlPoint Id="JU4inLGog20MJvrnS2Jgko" Bounds="752,294" />
+          <Link Id="FVtIDneNiBsLbqxkRBDrA5" Ids="JU4inLGog20MJvrnS2Jgko,PLWn3UhPM8wMGKlKZBTzcv" />
+          <Pin Id="QL574h20iwEPTurnuI4RDz" Name="Input" Kind="InputPin" />
+          <Link Id="H1443G9owcvLg9fripiIe4" Ids="QL574h20iwEPTurnuI4RDz,JU4inLGog20MJvrnS2Jgko" IsHidden="true" />
+          <ControlPoint Id="SuYEMlSWcMcQNU4L8OUbTx" Bounds="752,421" />
+          <Pin Id="Typ4AQsHOznPcykpdY5qV8" Name="Output" Kind="OutputPin" />
+          <Link Id="QYILpQX3WnFNFcqTt8R03Z" Ids="SuYEMlSWcMcQNU4L8OUbTx,Typ4AQsHOznPcykpdY5qV8" IsHidden="true" />
+          <Node Bounds="750,367,107,26" Id="QKbHocINf0dMCEKMcLLJzn">
+            <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="System.Windows.Forms.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetTransparencyKey" />
+            </p:NodeReference>
+            <Pin Id="DRCKx3AtmoJN7dhL78FDeO" Name="Input" Kind="StateInputPin" />
+            <Pin Id="BssPMXGfrz6QJcFRdTdQQa" Name="Value" Kind="InputPin" />
+            <Pin Id="C7iYwpSN2okNju5nYCYkp4" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Link Id="VII9u4uxuA7LqCOYBSgV44" Ids="OF0OHW90LMEPFjX1gKgsHr,DRCKx3AtmoJN7dhL78FDeO" />
+          <Link Id="U8D0uauP7XcMbnaYx8itEX" Ids="HFCrAn3lh1DO0t9nUPmnYq,BssPMXGfrz6QJcFRdTdQQa" />
+          <Link Id="PyckqKzQEiNQEe3iNEKWe6" Ids="C7iYwpSN2okNju5nYCYkp4,SuYEMlSWcMcQNU4L8OUbTx" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ SetWindowOpacity ************************
+
+-->
+      <Node Name="SetWindowOpacity" Bounds="993,289,131,111" Id="DBQM10R1G52OvPltJuDwlG">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="MtxhqhHcshwM8UcKW1Zbk3">
+          <Node Bounds="1005,332,64,26" Id="VYUiRvfkNkmMtIYrCDVhJv">
+            <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="System.Windows.Forms.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetOpacity" />
+            </p:NodeReference>
+            <Pin Id="DHFvKUjNMPtLY9LllrcXxJ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="CbK7XqcsG1AQCRNlhVbmfm" Name="Value" Kind="InputPin" DefaultValue="0.95" />
+            <Pin Id="UbRZHZbzpamMpC5ptt82yl" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <ControlPoint Id="DP7hMOd5iYlLAJyaDbzSqU" Bounds="1007,309" />
+          <Link Id="MKdXCI056L5PDq6FWjPuzc" Ids="DP7hMOd5iYlLAJyaDbzSqU,DHFvKUjNMPtLY9LllrcXxJ" />
+          <Pin Id="BVvKQUrw8bjM8zlw1rnMs0" Name="Input" Kind="InputPin" />
+          <Link Id="JlodCIDarqSNaUWvWV3SQm" Ids="BVvKQUrw8bjM8zlw1rnMs0,DP7hMOd5iYlLAJyaDbzSqU" IsHidden="true" />
+          <ControlPoint Id="QH8jvakXrANMskl4GygEMy" Bounds="1007,383" />
+          <Link Id="Ai9W51CapXlQEyQXoEu3A3" Ids="UbRZHZbzpamMpC5ptt82yl,QH8jvakXrANMskl4GygEMy" />
+          <Pin Id="JaoOdAcnnUSMuxEwcSg39F" Name="Output" Kind="OutputPin" />
+          <Link Id="Mw3kFvm09NTNBPpKzmPHta" Ids="QH8jvakXrANMskl4GygEMy,JaoOdAcnnUSMuxEwcSg39F" IsHidden="true" />
+          <ControlPoint Id="EbmxYm1WjeRLwUCbkHyHyC" Bounds="1066,307" />
+          <Link Id="PHPF0J4OUKWLm3osCJhVym" Ids="EbmxYm1WjeRLwUCbkHyHyC,CbK7XqcsG1AQCRNlhVbmfm" />
+          <Pin Id="RokCNf0sH9rQCcRm82TlCK" Name="Opacity" Kind="InputPin" />
+          <Link Id="L6WBlkKlrxGPdpb0AqnGkl" Ids="RokCNf0sH9rQCcRm82TlCK,EbmxYm1WjeRLwUCbkHyHyC" IsHidden="true" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
@@ -109,11 +194,6 @@
         <Canvas Id="SxLLgvkVhGTPcVI0r9jHhB" CanvasType="Group" />
         <Patch Id="PxsiIKJYNazPHm4Ryaj6Rf" Name="Create" />
         <Patch Id="BolnXEJDD95PQ6oPsANkVm" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="ONI2hsbY9TLQMsgiWFEZNN">
           <Fragment Id="TXit73h5rk5N51XfWr52mu" Patch="PxsiIKJYNazPHm4Ryaj6Rf" Enabled="true" />
           <Fragment Id="OizehNhOrJrNlYkh1zhpzE" Patch="BolnXEJDD95PQ6oPsANkVm" Enabled="true" />
@@ -122,4 +202,6 @@
     </Node>
   </Patch>
   <PlatformDependency Id="A4xvQ8TgV4uOeCaOSUGxVr" Location="System.Xml.XDocument" />
+  <PlatformDependency Id="PH45W7mELd8L0GuVMc7sV0" Location="System.Windows.Forms" />
+  <PlatformDependency Id="MFEb1w5wJzBOgrk54NoT6z" Location="System.Drawing" />
 </Document>
