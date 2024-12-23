@@ -1569,6 +1569,15 @@
                                         </Patch>
                                       </Node>
                                       <ControlPoint Id="KlkOhplmxNjQDHrA0bIikH" Bounds="786,520" />
+                                      <Node Bounds="547,871,104,19" Id="IkvojGsXSpJP0jH7zyvvgs">
+                                        <p:NodeReference LastCategoryFullName="ImGui.Commands" LastDependency="VL.ImGui.vl">
+                                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                                          <Choice Kind="ProcessNode" Name="CloseCurrentPopup" />
+                                        </p:NodeReference>
+                                        <Pin Id="Jia6jYTmGOLO5vfhhWgGs7" Name="Context" Kind="InputPin" />
+                                        <Pin Id="Pu9aD4lCHhnOYV2ydQHJGT" Name="Enabled" Kind="InputPin" />
+                                        <Pin Id="TJkRduUOUdpMprPYLS4qfl" Name="Context" Kind="OutputPin" />
+                                      </Node>
                                     </Canvas>
                                     <Patch Id="DMFauH4X2EQQIYoqIdr2n2" Name="Create" />
                                     <Patch Id="OGAijZLYtg8NxvISg2FY7T" Name="Update">
@@ -1584,11 +1593,6 @@
                                       </Pin>
                                       <Pin Id="NujLr3eC22oNFzRpcFrh5x" Name="Selected Element" Kind="InputPin" />
                                     </Patch>
-                                    <!--
-
-    ************************  ************************
-
--->
                                     <ProcessDefinition Id="V4MjxdvTxtjNcrg4MmwJ8O">
                                       <Fragment Id="DQlbWdQkm3cL4oOkesgz7B" Patch="DMFauH4X2EQQIYoqIdr2n2" Enabled="true" />
                                       <Fragment Id="QB9y8HnMJ1gNZRml1zKDoI" Patch="OGAijZLYtg8NxvISg2FY7T" Enabled="true" />
@@ -1612,6 +1616,8 @@
                                     <Link Id="R6BRp92S3auLgh3I2jU5V8" Ids="ODc1kjWIXXgPLP86Nmmxdi,QqOryy6Aa72MHaxzMWROwo" />
                                     <Link Id="Oyc8T3ihD69PlbjPceDMVq" Ids="KlkOhplmxNjQDHrA0bIikH,NO5gkRrXOmEP9YZT9M9TLC" />
                                     <Link Id="Omr0kb6UNF9LqtJB2GW3zZ" Ids="NujLr3eC22oNFzRpcFrh5x,KlkOhplmxNjQDHrA0bIikH" IsHidden="true" />
+                                    <Link Id="TsLJIIrVZu2LkLDtjH0TBM" Ids="EJLGBa3riXXQYDh5BvnfqN,Jia6jYTmGOLO5vfhhWgGs7" />
+                                    <Link Id="HogVvWrB7h2QQh3juDjOSg" Ids="PMjjV1AwU7JOpeV53pZ8c4,Pu9aD4lCHhnOYV2ydQHJGT" />
                                   </Patch>
                                 </Node>
                                 <ControlPoint Id="DPlhWhPZgb5OgDEQM3zeBs" Bounds="895,728" />
