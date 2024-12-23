@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0306-gf2f3e95f5e" Version="0.128">
-  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0306-gf2f3e95f5e" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SsMDajXc0RoMa9OBbuw2gm" LanguageVersion="2024.6.7-0308-g293be43e1a" Version="0.128">
+  <NugetDependency Id="DWwHcwdOPuKMQzvm6R5how" Location="VL.CoreLib" Version="2024.6.7-0308-g293be43e1a" />
   <Patch Id="IJ0ICv7DUXxN7xHPDLeO8O">
     <Canvas Id="RXlQmIPXpQMMNHbOIsMq1A" DefaultCategory="Main" CanvasType="FullCategory">
       <Canvas Id="A99bvCfCiDrOK06fg99eRF" Name="MyProject" Position="183,198">
@@ -516,7 +516,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Renderer" />
                 </p:NodeReference>
-                <Pin Id="LXJ4qbj5cZ9O8qhZpZ0n1C" Name="Bounds" Kind="InputPin" DefaultValue="1338, 388, 613, 436" IsHidden="true" />
+                <Pin Id="LXJ4qbj5cZ9O8qhZpZ0n1C" Name="Bounds" Kind="InputPin" DefaultValue="1337, 388, 612, 436" IsHidden="true" />
                 <Pin Id="DAQMmdJWFasO4wBvhfqVUT" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DhZQD59jzlmLn1a5berX7h" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
                 <Pin Id="CMKGtf680JpOLcAxBo8DVi" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -575,7 +575,7 @@
       </p:NodeReference>
       <Patch Id="IfvAVdkAekxNlr8Ih6fvsC">
         <Canvas Id="Dsg4LLLDpLGNDsIB3zmwLt" CanvasType="Group">
-          <Pad Id="EC50sQBNATJMIJtmsE5pYj" Bounds="244,224,27,27" ShowValueBox="true" isIOBox="true" Value="1.">
+          <Pad Id="EC50sQBNATJMIJtmsE5pYj" Bounds="244,134,27,27" ShowValueBox="true" isIOBox="true" Value="1.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -584,7 +584,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PCTcEZ31CbRNoI5KQyKH03" Bounds="271,230,309,19" ShowValueBox="true" isIOBox="true" Value="Press ALT + B to open the Bookmarks Manager">
+          <Pad Id="PCTcEZ31CbRNoI5KQyKH03" Bounds="271,140,309,19" ShowValueBox="true" isIOBox="true" Value="Press ALT + B to open the Bookmarks Manager">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -593,7 +593,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GqibRjfnrKdOqvP2R7JtLw" Bounds="244,258,27,27" ShowValueBox="true" isIOBox="true" Value="2.">
+          <Pad Id="GqibRjfnrKdOqvP2R7JtLw" Bounds="244,168,27,27" ShowValueBox="true" isIOBox="true" Value="2.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -602,7 +602,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="O77dIWZo7iJM8Gm7iNey8l" Bounds="271,264,309,19" ShowValueBox="true" isIOBox="true" Value="Select any node in the editor">
+          <Pad Id="O77dIWZo7iJM8Gm7iNey8l" Bounds="271,174,309,19" ShowValueBox="true" isIOBox="true" Value="Select any node in the editor">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -611,7 +611,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="E2plv5b6FZsOTRndOZVJ0C" Bounds="244,288,27,27" ShowValueBox="true" isIOBox="true" Value="3.">
+          <Pad Id="E2plv5b6FZsOTRndOZVJ0C" Bounds="244,198,27,27" ShowValueBox="true" isIOBox="true" Value="3.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -620,7 +620,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NqacNe7PogzP5IKKCt445E" Bounds="271,294,365,19" ShowValueBox="true" isIOBox="true" Value="Set its metadata in the manager and click Apply">
+          <Pad Id="NqacNe7PogzP5IKKCt445E" Bounds="271,204,365,19" ShowValueBox="true" isIOBox="true" Value="Set its metadata in the manager and click Apply">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -629,7 +629,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="D1ZyN1o8hGVQNfwEMeMu7C" Bounds="244,318,27,27" ShowValueBox="true" isIOBox="true" Value="4.">
+          <Pad Id="D1ZyN1o8hGVQNfwEMeMu7C" Bounds="244,228,27,27" ShowValueBox="true" isIOBox="true" Value="4.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -638,7 +638,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MLDvUbLxX8XLm1bxVAXA4e" Bounds="271,324,366,44" ShowValueBox="true" isIOBox="true" Value="Your bookmark has been added to the manager, double-click it at any time to be teleported to it!">
+          <Pad Id="MLDvUbLxX8XLm1bxVAXA4e" Bounds="271,234,366,44" ShowValueBox="true" isIOBox="true" Value="Your bookmark has been added to the manager, double-click it at any time to be teleported to it!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -647,8 +647,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="Ix3BpuhktCgLVondAsgvBg" Name="" Bounds="202,187,482,223" />
-          <Pad Id="N3KODiT5mwhO6sQVjyeHdV" Bounds="244,369,27,27" ShowValueBox="true" isIOBox="true" Value="5.">
+          <Overlay Id="Ix3BpuhktCgLVondAsgvBg" Name="Basics" Bounds="202,85,482,297" />
+          <Pad Id="N3KODiT5mwhO6sQVjyeHdV" Bounds="244,279,27,27" ShowValueBox="true" isIOBox="true" Value="5.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -657,7 +657,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VLm8eKdBl4aLgH4CmVW2JU" Bounds="271,375,374,19" ShowValueBox="true" isIOBox="true" Value="You can filter bookmarks by their name using the Filter input">
+          <Pad Id="VLm8eKdBl4aLgH4CmVW2JU" Bounds="271,285,374,19" ShowValueBox="true" isIOBox="true" Value="You can filter bookmarks by their name using the Filter input">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -684,6 +684,36 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="DdI0t8krFGdMVZZtuLonSV" Bounds="232,466,400,65" ShowValueBox="true" isIOBox="true" Value="After adding bookmarks, press SPACE + B: an overlay with all your bookmarks will appear next to your cursor. Simply click a bookmark and voilà.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="JwlJNGYJc4QP0YxqtZD5le" Name="Overlay" Bounds="202,415,481,124">
+            <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
+          </Overlay>
+          <Pad Id="NvbmtQZAUdlPome1hquHgc" Bounds="244,309,27,27" ShowValueBox="true" isIOBox="true" Value="6.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">13</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="J51945rEjHWMUOvFvk2bFi" Bounds="271,315,373,59" ShowValueBox="true" isIOBox="true" Value="You can assign a color to your bookmark: click the little gray bar next to it to bring up the color picker and pick your favorite color.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="JJOgjnDDdL2LsxhICDE57n" Name="Create" />
         <Patch Id="S8vLZINzhX3P00tMhwD4FP" Name="Update" />
@@ -695,5 +725,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0306-gf2f3e95f5e" />
+  <NugetDependency Id="HM7nseTXZoBLj2VtTF0JRN" Location="VL.Skia" Version="2024.6.7-0308-g293be43e1a" />
 </Document>
