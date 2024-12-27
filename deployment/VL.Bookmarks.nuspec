@@ -9,7 +9,7 @@
     <id>VL.Bookmarks.HDE</id>
     <icon>icon.png</icon>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>2.1.0</version>
+    <version>2.1.1</version>
     <title>VL.Bookmarks.HDE</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
     <authors>sebescudie</authors>
@@ -21,6 +21,9 @@
     <tags>VL vvvv hde bookmark</tags>
     <license type="expression">LGPL-3.0-only</license>
     <readme>docs\README.md</readme>
+    <dependencies>
+      <dependency id="VL.IO.MouseKeyGlobal" version="[5.0.0, 6.0.0)" />
+    </dependencies>
   </metadata>
   <files>
     <!-- <file src="..\lib\**\*.dll" target="lib\" exclude="" /> -->
