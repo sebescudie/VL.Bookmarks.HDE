@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<ConcurrentDictionary xmlns:r="reflection" r:Version="2">
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm T1wPSm4aekuNNrm80FDKSg">
+    <Value Color="0.8633218, 0.77546084, 0.22852637, 0.6784314" Description="Interesting node right?" Name="The map" />
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm ClaBIa9sAXCLckXIVZbY75">
+    <Value Color="0.9636678, 0.3793704, 0.015005212, 0.6784314" Description="The root of the project" Name="Root patch" />
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm O2E1cKzOSxdPvtj7LHQ8dQ">
+    <Value Color="0.08247926, 0.54112005, 0.866782, 0.6784314" Description="Boom" Name="On Open" />
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm KwMvm7TEncsOMJ79Bmrsp7">
+    <Value Color="0.2784314, 0.2784314, 0.2784314, 0.6784314" Description="This is where we're writting stuff" Name="Text patch" />
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm GqZXmJHxFKAPjf2AI4lpxJ">
+    <Value Color="0.2784314, 0.2784314, 0.2784314, 0.6784314" Description="This is the window that shows the stuff" Name="Renderer node" />
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm ClLDFs96vunQGBGG9Vkg5B">
+    <Value Description="C'est un groupe spectral" Name="Groupe">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm QKRpbQWesceNjPUJdyzqin">
+    <Value Description="Min?" Name="The min">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm Lg1dIaV924xPf8yrmewbXO">
+    <Value Description="Yes it is" Name="A group node">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm DJVKTgiNJPCQDazSzzo1gz">
+    <Value Description="Hey, this is cool" Name="ToVector2">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm AZdDRExrOhhLNKR9EnoC6O">
+    <Value Description="Drunkwalk" Name="Wanderer">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm F4ZzBDmIXm8QJKZlLJZtQ6">
+    <Value Description="Maxxxx" Name="The max">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm Cr5vA5HWGpjNgHVlBQYpL8">
+    <Value Description="Scale, rotate and translate yo" Name="TransformSRT">
+      <Color r:IsNull="true" />
+    </Value>
+  </Item>
+  <Item Key="SsMDajXc0RoMa9OBbuw2gm GDutmGsNM3uNnFpRrOvwBh">
+    <Value Color="0.27058825, 0.27058825, 0.27058825, 1" Description="Drawing the bubbles hey" Name="Bubbles subpatch" />
+  </Item>
+</ConcurrentDictionary>
