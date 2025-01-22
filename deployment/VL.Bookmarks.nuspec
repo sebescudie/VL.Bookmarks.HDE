@@ -9,7 +9,7 @@
     <id>VL.Bookmarks.HDE</id>
     <icon>icon.png</icon>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
-    <version>2.1.1</version>
+    <version>2.1.2</version>
     <title>VL.Bookmarks.HDE</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
     <authors>sebescudie</authors>
@@ -29,6 +29,7 @@
     <!-- <file src="..\lib\**\*.dll" target="lib\" exclude="" /> -->
 	  <!-- <file src="..\runtimes\**\*.dll" target="runtimes\" exclude="" /> -->
     <file src="..\*.vl" target="" exclude="" />
+    <file src="..\*.vBKM" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
     <file src="..\README.md" target="docs\" />
     <file src="..\deployment\icon.png" target=""/>
