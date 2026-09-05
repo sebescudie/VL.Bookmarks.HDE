@@ -3956,7 +3956,7 @@
                     </p:NodeReference>
                     <Pin Id="GVEo5fEeD76OaUvys4L1Jz" Name="Directory" Kind="InputPin" />
                     <Pin Id="CPYwZpRKFmeNFr5jVqSmet" Name="Filename" Kind="InputPin" DefaultValue="" />
-                    <Pin Id="BaI7eeTfhRvL2XB6Y8w13J" Name="Extension" Kind="InputPin" DefaultValue="BKM" />
+                    <Pin Id="BaI7eeTfhRvL2XB6Y8w13J" Name="Extension" Kind="InputPin" DefaultValue="bkm" />
                     <Pin Id="IWWiAV1gh18LSsyHqrNCi9" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Link Id="OGGQV4CnpWrQYFnNJS9riN" Ids="GU6tThvbAIkLg0SFv6UEf0,GVEo5fEeD76OaUvys4L1Jz" />
